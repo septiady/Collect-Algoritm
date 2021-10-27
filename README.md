@@ -9,7 +9,7 @@ All function algoritm implemented with Java
 ## Implemented Algorithm Collection
 Below is a collection that we have created and can / friends use on some of the code blocks of the program that you are making
 
-### <b>`Get Date Today`</b>, get date and time today
+### 1. <b>`Get Date Today`</b>, get date and time today
 
 @`TimeAndDate.java` > `getTodayDate`
 
