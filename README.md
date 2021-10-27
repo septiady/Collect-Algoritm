@@ -6,7 +6,21 @@ All function algoritm implemented with Java
 2. Open package <b>id.septiyadi.buildalgoritma (test)</b>
 3. Then open the collection file you want to test and see the output
 
-## Collection Algoritm
+## Implemented Algorithm Collection
 Below is a collection that we have created and can / friends use on some of the code blocks of the program that you are making
 
-- [x] Get Date Today, get date and time today 
+- [x] <a href=""><b>'Get Date Today'</b></a>, get date and time today
+
+@`TimeAndDate.java`
+
+```.java
+    @Test
+    public void getTodayDate() {
+        SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+        Date today = new Date();
+        String todayTime = format.format(today);
+
+        System.out.print(todayTime);
+
+    }
+```
