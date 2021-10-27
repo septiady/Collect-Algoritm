@@ -11,16 +11,19 @@ Below is a collection that we have created and can / friends use on some of the 
 
 - [x] <a href=""><b>'Get Date Today'</b></a>, get date and time today
 
-@`TimeAndDate.java`
+@`TimeAndDate.java` > `getTodayDate`
 
 ```.java
-    @Test
-    public void getTodayDate() {
-        SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
-        Date today = new Date();
-        String todayTime = format.format(today);
+@Test
+public void getTodayDate() {
+    SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+    Date today = new Date();
+    String todayTime = format.format(today);
 
-        System.out.print(todayTime);
-
-    }
+    System.out.print(todayTime);
+}
+```
+Output
+```.txt
+28/10/2021 05:23:36
 ```
